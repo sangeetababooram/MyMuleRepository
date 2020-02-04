@@ -11,7 +11,7 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
 http://www.mulesoft.org/schema/mule/os http://www.mulesoft.org/schema/mule/os/current/mule-os.xsd
 http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd">
 	<flow name="syncDBaccountsWithPostal" doc:id="0aa69630-6d4d-49da-a748-0e462cfab956" initialState="stopped">
-		<scheduler doc:name="Scheduler" doc:id="e66068dd-3787-458a-9357-78dd2619cb2f" >
+		<scheduler doc:name="Scheduler" doc:id="e66068dd-3787-458a-9357-78dd2619cb2f" >a
 			<scheduling-strategy >
 				<fixed-frequency frequency="10" timeUnit="SECONDS"/>
 			</scheduling-strategy>
